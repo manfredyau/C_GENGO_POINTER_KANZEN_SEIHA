@@ -149,6 +149,19 @@ pointer/fast:
 .PHONY : pointer/fast
 
 #=============================================================================
+# Target rules for targets named array_init
+
+# Build rule for target.
+array_init: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 array_init
+.PHONY : array_init
+
+# fast build rule for target.
+array_init/fast:
+	$(MAKE) -f CMakeFiles\array_init.dir\build.make CMakeFiles/array_init.dir/build
+.PHONY : array_init/fast
+
+#=============================================================================
 # Target rules for targets named try1
 
 # Build rule for target.
@@ -269,6 +282,33 @@ main.c.s:
 	$(MAKE) -f CMakeFiles\C_GENGO_POINTER_KANZEN_SEIHA.dir\build.make CMakeFiles/C_GENGO_POINTER_KANZEN_SEIHA.dir/main.c.s
 .PHONY : main.c.s
 
+tests/array_init.obj: tests/array_init.c.obj
+
+.PHONY : tests/array_init.obj
+
+# target to build an object file
+tests/array_init.c.obj:
+	$(MAKE) -f CMakeFiles\array_init.dir\build.make CMakeFiles/array_init.dir/tests/array_init.c.obj
+.PHONY : tests/array_init.c.obj
+
+tests/array_init.i: tests/array_init.c.i
+
+.PHONY : tests/array_init.i
+
+# target to preprocess a source file
+tests/array_init.c.i:
+	$(MAKE) -f CMakeFiles\array_init.dir\build.make CMakeFiles/array_init.dir/tests/array_init.c.i
+.PHONY : tests/array_init.c.i
+
+tests/array_init.s: tests/array_init.c.s
+
+.PHONY : tests/array_init.s
+
+# target to generate assembly for a file
+tests/array_init.c.s:
+	$(MAKE) -f CMakeFiles\array_init.dir\build.make CMakeFiles/array_init.dir/tests/array_init.c.s
+.PHONY : tests/array_init.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -279,6 +319,7 @@ help:
 	@echo ... C_GENGO_POINTER_KANZEN_SEIHA
 	@echo ... pointer
 	@echo ... rebuild_cache
+	@echo ... array_init
 	@echo ... try1
 	@echo ... edit_cache
 	@echo ... Chapter1/pointer.obj
@@ -293,6 +334,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... tests/array_init.obj
+	@echo ... tests/array_init.i
+	@echo ... tests/array_init.s
 .PHONY : help
 
 

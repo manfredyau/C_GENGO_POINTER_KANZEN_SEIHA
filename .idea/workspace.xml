@@ -6,6 +6,7 @@
       <config projectName="C_GENGO_POINTER_KANZEN_SEIHA" targetName="C_GENGO_POINTER_KANZEN_SEIHA" />
       <config projectName="C_GENGO_POINTER_KANZEN_SEIHA" targetName="try2" />
       <config projectName="C_GENGO_POINTER_KANZEN_SEIHA" targetName="try1" />
+      <config projectName="C_GENGO_POINTER_KANZEN_SEIHA" targetName="array_init" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -14,16 +15,14 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd3befbc-e546-43d4-a0ff-5dc0b82582c3" name="Default Changelist" comment="First">
-      <change afterPath="$PROJECT_DIR$/Chapter1/try1.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter1/try2.c" afterDir="false" />
+    <list default="true" id="fd3befbc-e546-43d4-a0ff-5dc0b82582c3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/tests/array_init.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1/pointer.c" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1/pointer.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter1/try2.c" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1/try2.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/C_GENGO_POINTER_KANZEN_SEIHA.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/C_GENGO_POINTER_KANZEN_SEIHA.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
@@ -55,7 +54,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.C/C++" />
+    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -69,8 +68,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="CMake Application.try2">
+  <component name="RunManager" selected="CMake Application.array_init">
     <configuration name="C_GENGO_POINTER_KANZEN_SEIHA" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C_GENGO_POINTER_KANZEN_SEIHA" TARGET_NAME="C_GENGO_POINTER_KANZEN_SEIHA" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C_GENGO_POINTER_KANZEN_SEIHA" RUN_TARGET_NAME="C_GENGO_POINTER_KANZEN_SEIHA">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="array_init" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C_GENGO_POINTER_KANZEN_SEIHA" TARGET_NAME="array_init" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C_GENGO_POINTER_KANZEN_SEIHA" RUN_TARGET_NAME="array_init">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -91,6 +95,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="CMake Application.array_init" />
       <item itemvalue="CMake Application.C_GENGO_POINTER_KANZEN_SEIHA" />
       <item itemvalue="CMake Application.pointer" />
       <item itemvalue="CMake Application.try1" />
@@ -109,7 +114,7 @@
       <updated>1566864817822</updated>
       <workItem from="1566864820872" duration="930000" />
       <workItem from="1566865836401" duration="52000" />
-      <workItem from="1566865904906" duration="6110000" />
+      <workItem from="1566865904906" duration="12957000" />
     </task>
     <task id="LOCAL-00001" summary="First">
       <created>1566864962286</created>
@@ -125,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566864986412</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="2019/8/27 11:28">
+      <created>1566876536671</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1566876536671</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,6 +156,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First" />
-    <option name="LAST_COMMIT_MESSAGE" value="First" />
+    <MESSAGE value="2019/8/27 11:28" />
+    <option name="LAST_COMMIT_MESSAGE" value="2019/8/27 11:28" />
   </component>
 </project>

@@ -1,9 +1,9 @@
 #include <stdio.h>
 
-// 必須確保 a 和 b 不是同一個變量
+// 必須確保 a 和 b 不是同一個變量，而且使用加法也存在可能溢出的問題
 #define SWAP(a, b) (a += b, b = a - b, a -= b)
 
-// 也可以使用按位異或運来完成值的交換，而且此處也通過使用 if 来确保待交的是兩個不同的變量
+// 也可以使用按位異或運来完成值的交換，而且此處也通過使用 if 来确保待交換的是兩個不同的變量
 #define SWAP1(a, b) if(&a != &b)(a = a ^ b, b = a ^ b, a = a ^ b)
 
 #define pr(x) if(x){printf("abc");}

@@ -51,5 +51,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/try2.dir/DependInfo.cmake"
   "CMakeFiles/C_GENGO_POINTER_KANZEN_SEIHA.dir/DependInfo.cmake"
   "CMakeFiles/pointer.dir/DependInfo.cmake"
+  "CMakeFiles/array_init.dir/DependInfo.cmake"
   "CMakeFiles/try1.dir/DependInfo.cmake"
   )

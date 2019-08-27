@@ -70,7 +70,7 @@ CMAKE_BINARY_DIR = F:\CLionProjects\C_GENGO_POINTER_KANZEN_SEIHA\cmake-build-deb
 CMakeFiles/try2.dir/all:
 	$(MAKE) -f CMakeFiles\try2.dir\build.make CMakeFiles/try2.dir/depend
 	$(MAKE) -f CMakeFiles\try2.dir\build.make CMakeFiles/try2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\CLionProjects\C_GENGO_POINTER_KANZEN_SEIHA\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target try2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\CLionProjects\C_GENGO_POINTER_KANZEN_SEIHA\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target try2"
 .PHONY : CMakeFiles/try2.dir/all
 
 # Include target in all.
@@ -144,7 +144,7 @@ clean: CMakeFiles/C_GENGO_POINTER_KANZEN_SEIHA.dir/clean
 CMakeFiles/pointer.dir/all:
 	$(MAKE) -f CMakeFiles\pointer.dir\build.make CMakeFiles/pointer.dir/depend
 	$(MAKE) -f CMakeFiles\pointer.dir\build.make CMakeFiles/pointer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\CLionProjects\C_GENGO_POINTER_KANZEN_SEIHA\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target pointer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\CLionProjects\C_GENGO_POINTER_KANZEN_SEIHA\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target pointer"
 .PHONY : CMakeFiles/pointer.dir/all
 
 # Include target in all.
@@ -175,13 +175,50 @@ clean: CMakeFiles/pointer.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/array_init.dir
+
+# All Build rule for target.
+CMakeFiles/array_init.dir/all:
+	$(MAKE) -f CMakeFiles\array_init.dir\build.make CMakeFiles/array_init.dir/depend
+	$(MAKE) -f CMakeFiles\array_init.dir\build.make CMakeFiles/array_init.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\CLionProjects\C_GENGO_POINTER_KANZEN_SEIHA\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target array_init"
+.PHONY : CMakeFiles/array_init.dir/all
+
+# Include target in all.
+all: CMakeFiles/array_init.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/array_init.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\CLionProjects\C_GENGO_POINTER_KANZEN_SEIHA\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/array_init.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\CLionProjects\C_GENGO_POINTER_KANZEN_SEIHA\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/array_init.dir/rule
+
+# Convenience name for target.
+array_init: CMakeFiles/array_init.dir/rule
+
+.PHONY : array_init
+
+# clean rule for target.
+CMakeFiles/array_init.dir/clean:
+	$(MAKE) -f CMakeFiles\array_init.dir\build.make CMakeFiles/array_init.dir/clean
+.PHONY : CMakeFiles/array_init.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/array_init.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/try1.dir
 
 # All Build rule for target.
 CMakeFiles/try1.dir/all:
 	$(MAKE) -f CMakeFiles\try1.dir\build.make CMakeFiles/try1.dir/depend
 	$(MAKE) -f CMakeFiles\try1.dir\build.make CMakeFiles/try1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\CLionProjects\C_GENGO_POINTER_KANZEN_SEIHA\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target try1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\CLionProjects\C_GENGO_POINTER_KANZEN_SEIHA\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target try1"
 .PHONY : CMakeFiles/try1.dir/all
 
 # Include target in all.
