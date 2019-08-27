@@ -55,17 +55,6 @@ CMAKE_BINARY_DIR = F:\CLionProjects\C_GENGO_POINTER_KANZEN_SEIHA\cmake-build-deb
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"D:\JetBrains\CLion 2019.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -76,6 +65,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	"D:\JetBrains\CLion 2019.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -110,6 +110,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named try2
+
+# Build rule for target.
+try2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 try2
+.PHONY : try2
+
+# fast build rule for target.
+try2/fast:
+	$(MAKE) -f CMakeFiles\try2.dir\build.make CMakeFiles/try2.dir/build
+.PHONY : try2/fast
+
+#=============================================================================
 # Target rules for targets named C_GENGO_POINTER_KANZEN_SEIHA
 
 # Build rule for target.
@@ -121,6 +134,113 @@ C_GENGO_POINTER_KANZEN_SEIHA: cmake_check_build_system
 C_GENGO_POINTER_KANZEN_SEIHA/fast:
 	$(MAKE) -f CMakeFiles\C_GENGO_POINTER_KANZEN_SEIHA.dir\build.make CMakeFiles/C_GENGO_POINTER_KANZEN_SEIHA.dir/build
 .PHONY : C_GENGO_POINTER_KANZEN_SEIHA/fast
+
+#=============================================================================
+# Target rules for targets named pointer
+
+# Build rule for target.
+pointer: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 pointer
+.PHONY : pointer
+
+# fast build rule for target.
+pointer/fast:
+	$(MAKE) -f CMakeFiles\pointer.dir\build.make CMakeFiles/pointer.dir/build
+.PHONY : pointer/fast
+
+#=============================================================================
+# Target rules for targets named try1
+
+# Build rule for target.
+try1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 try1
+.PHONY : try1
+
+# fast build rule for target.
+try1/fast:
+	$(MAKE) -f CMakeFiles\try1.dir\build.make CMakeFiles/try1.dir/build
+.PHONY : try1/fast
+
+Chapter1/pointer.obj: Chapter1/pointer.c.obj
+
+.PHONY : Chapter1/pointer.obj
+
+# target to build an object file
+Chapter1/pointer.c.obj:
+	$(MAKE) -f CMakeFiles\pointer.dir\build.make CMakeFiles/pointer.dir/Chapter1/pointer.c.obj
+.PHONY : Chapter1/pointer.c.obj
+
+Chapter1/pointer.i: Chapter1/pointer.c.i
+
+.PHONY : Chapter1/pointer.i
+
+# target to preprocess a source file
+Chapter1/pointer.c.i:
+	$(MAKE) -f CMakeFiles\pointer.dir\build.make CMakeFiles/pointer.dir/Chapter1/pointer.c.i
+.PHONY : Chapter1/pointer.c.i
+
+Chapter1/pointer.s: Chapter1/pointer.c.s
+
+.PHONY : Chapter1/pointer.s
+
+# target to generate assembly for a file
+Chapter1/pointer.c.s:
+	$(MAKE) -f CMakeFiles\pointer.dir\build.make CMakeFiles/pointer.dir/Chapter1/pointer.c.s
+.PHONY : Chapter1/pointer.c.s
+
+Chapter1/try1.obj: Chapter1/try1.c.obj
+
+.PHONY : Chapter1/try1.obj
+
+# target to build an object file
+Chapter1/try1.c.obj:
+	$(MAKE) -f CMakeFiles\try1.dir\build.make CMakeFiles/try1.dir/Chapter1/try1.c.obj
+.PHONY : Chapter1/try1.c.obj
+
+Chapter1/try1.i: Chapter1/try1.c.i
+
+.PHONY : Chapter1/try1.i
+
+# target to preprocess a source file
+Chapter1/try1.c.i:
+	$(MAKE) -f CMakeFiles\try1.dir\build.make CMakeFiles/try1.dir/Chapter1/try1.c.i
+.PHONY : Chapter1/try1.c.i
+
+Chapter1/try1.s: Chapter1/try1.c.s
+
+.PHONY : Chapter1/try1.s
+
+# target to generate assembly for a file
+Chapter1/try1.c.s:
+	$(MAKE) -f CMakeFiles\try1.dir\build.make CMakeFiles/try1.dir/Chapter1/try1.c.s
+.PHONY : Chapter1/try1.c.s
+
+Chapter1/try2.obj: Chapter1/try2.c.obj
+
+.PHONY : Chapter1/try2.obj
+
+# target to build an object file
+Chapter1/try2.c.obj:
+	$(MAKE) -f CMakeFiles\try2.dir\build.make CMakeFiles/try2.dir/Chapter1/try2.c.obj
+.PHONY : Chapter1/try2.c.obj
+
+Chapter1/try2.i: Chapter1/try2.c.i
+
+.PHONY : Chapter1/try2.i
+
+# target to preprocess a source file
+Chapter1/try2.c.i:
+	$(MAKE) -f CMakeFiles\try2.dir\build.make CMakeFiles/try2.dir/Chapter1/try2.c.i
+.PHONY : Chapter1/try2.c.i
+
+Chapter1/try2.s: Chapter1/try2.c.s
+
+.PHONY : Chapter1/try2.s
+
+# target to generate assembly for a file
+Chapter1/try2.c.s:
+	$(MAKE) -f CMakeFiles\try2.dir\build.make CMakeFiles/try2.dir/Chapter1/try2.c.s
+.PHONY : Chapter1/try2.c.s
 
 main.obj: main.c.obj
 
@@ -155,9 +275,21 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
+	@echo ... try2
 	@echo ... C_GENGO_POINTER_KANZEN_SEIHA
-	@echo ... edit_cache
+	@echo ... pointer
 	@echo ... rebuild_cache
+	@echo ... try1
+	@echo ... edit_cache
+	@echo ... Chapter1/pointer.obj
+	@echo ... Chapter1/pointer.i
+	@echo ... Chapter1/pointer.s
+	@echo ... Chapter1/try1.obj
+	@echo ... Chapter1/try1.i
+	@echo ... Chapter1/try1.s
+	@echo ... Chapter1/try2.obj
+	@echo ... Chapter1/try2.i
+	@echo ... Chapter1/try2.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

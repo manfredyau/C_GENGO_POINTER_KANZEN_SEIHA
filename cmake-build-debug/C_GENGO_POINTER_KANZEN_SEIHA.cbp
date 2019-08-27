@@ -17,6 +17,42 @@
 					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C_GENGO_POINTER_KANZEN_SEIHA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="try2">
+				<Option output="F:/CLionProjects/C_GENGO_POINTER_KANZEN_SEIHA/cmake-build-debug/try2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/CLionProjects/C_GENGO_POINTER_KANZEN_SEIHA/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C_GENGO_POINTER_KANZEN_SEIHA/cmake-build-debug/Makefile&quot;  VERBOSE=1 try2"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C_GENGO_POINTER_KANZEN_SEIHA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C_GENGO_POINTER_KANZEN_SEIHA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C_GENGO_POINTER_KANZEN_SEIHA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="try2/fast">
+				<Option output="F:/CLionProjects/C_GENGO_POINTER_KANZEN_SEIHA/cmake-build-debug/try2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/CLionProjects/C_GENGO_POINTER_KANZEN_SEIHA/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C_GENGO_POINTER_KANZEN_SEIHA/cmake-build-debug/Makefile&quot;  VERBOSE=1 try2/fast"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C_GENGO_POINTER_KANZEN_SEIHA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C_GENGO_POINTER_KANZEN_SEIHA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C_GENGO_POINTER_KANZEN_SEIHA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="C_GENGO_POINTER_KANZEN_SEIHA">
 				<Option output="F:/CLionProjects/C_GENGO_POINTER_KANZEN_SEIHA/cmake-build-debug/C_GENGO_POINTER_KANZEN_SEIHA.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="F:/CLionProjects/C_GENGO_POINTER_KANZEN_SEIHA/cmake-build-debug"/>
@@ -53,11 +89,37 @@
 					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C_GENGO_POINTER_KANZEN_SEIHA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="edit_cache">
+			<Target title="pointer">
+				<Option output="F:/CLionProjects/C_GENGO_POINTER_KANZEN_SEIHA/cmake-build-debug/pointer.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="F:/CLionProjects/C_GENGO_POINTER_KANZEN_SEIHA/cmake-build-debug"/>
-				<Option type="4"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
 				<MakeCommands>
-					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C_GENGO_POINTER_KANZEN_SEIHA/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C_GENGO_POINTER_KANZEN_SEIHA/cmake-build-debug/Makefile&quot;  VERBOSE=1 pointer"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C_GENGO_POINTER_KANZEN_SEIHA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C_GENGO_POINTER_KANZEN_SEIHA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C_GENGO_POINTER_KANZEN_SEIHA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pointer/fast">
+				<Option output="F:/CLionProjects/C_GENGO_POINTER_KANZEN_SEIHA/cmake-build-debug/pointer.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/CLionProjects/C_GENGO_POINTER_KANZEN_SEIHA/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C_GENGO_POINTER_KANZEN_SEIHA/cmake-build-debug/Makefile&quot;  VERBOSE=1 pointer/fast"/>
 					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C_GENGO_POINTER_KANZEN_SEIHA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C_GENGO_POINTER_KANZEN_SEIHA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C_GENGO_POINTER_KANZEN_SEIHA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -73,7 +135,62 @@
 					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C_GENGO_POINTER_KANZEN_SEIHA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="try1">
+				<Option output="F:/CLionProjects/C_GENGO_POINTER_KANZEN_SEIHA/cmake-build-debug/try1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/CLionProjects/C_GENGO_POINTER_KANZEN_SEIHA/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C_GENGO_POINTER_KANZEN_SEIHA/cmake-build-debug/Makefile&quot;  VERBOSE=1 try1"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C_GENGO_POINTER_KANZEN_SEIHA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C_GENGO_POINTER_KANZEN_SEIHA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C_GENGO_POINTER_KANZEN_SEIHA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="try1/fast">
+				<Option output="F:/CLionProjects/C_GENGO_POINTER_KANZEN_SEIHA/cmake-build-debug/try1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/CLionProjects/C_GENGO_POINTER_KANZEN_SEIHA/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C_GENGO_POINTER_KANZEN_SEIHA/cmake-build-debug/Makefile&quot;  VERBOSE=1 try1/fast"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C_GENGO_POINTER_KANZEN_SEIHA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C_GENGO_POINTER_KANZEN_SEIHA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C_GENGO_POINTER_KANZEN_SEIHA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="F:/CLionProjects/C_GENGO_POINTER_KANZEN_SEIHA/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C_GENGO_POINTER_KANZEN_SEIHA/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C_GENGO_POINTER_KANZEN_SEIHA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C_GENGO_POINTER_KANZEN_SEIHA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C_GENGO_POINTER_KANZEN_SEIHA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
+		<Unit filename="F:/CLionProjects/C_GENGO_POINTER_KANZEN_SEIHA/Chapter1/pointer.c">
+			<Option target="pointer"/>
+		</Unit>
+		<Unit filename="F:/CLionProjects/C_GENGO_POINTER_KANZEN_SEIHA/Chapter1/try1.c">
+			<Option target="try1"/>
+		</Unit>
+		<Unit filename="F:/CLionProjects/C_GENGO_POINTER_KANZEN_SEIHA/Chapter1/try2.c">
+			<Option target="try2"/>
+		</Unit>
 		<Unit filename="F:/CLionProjects/C_GENGO_POINTER_KANZEN_SEIHA/main.c">
 			<Option target="C_GENGO_POINTER_KANZEN_SEIHA"/>
 		</Unit>
