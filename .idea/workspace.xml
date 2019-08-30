@@ -2,10 +2,20 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
+      <config projectName="C_GENGO_POINTER_KANZEN_SEIHA" targetName="stackoverflow" />
+      <config projectName="C_GENGO_POINTER_KANZEN_SEIHA" targetName="local_variable_test" />
+      <config projectName="C_GENGO_POINTER_KANZEN_SEIHA" targetName="string_constant_adress_test" />
       <config projectName="C_GENGO_POINTER_KANZEN_SEIHA" targetName="pointer" />
+      <config projectName="C_GENGO_POINTER_KANZEN_SEIHA" targetName="print_address" />
       <config projectName="C_GENGO_POINTER_KANZEN_SEIHA" targetName="C_GENGO_POINTER_KANZEN_SEIHA" />
+      <config projectName="C_GENGO_POINTER_KANZEN_SEIHA" targetName="auto" />
+      <config projectName="C_GENGO_POINTER_KANZEN_SEIHA" targetName="modify_string_constant" />
+      <config projectName="C_GENGO_POINTER_KANZEN_SEIHA" targetName="vmtest" />
+      <config projectName="C_GENGO_POINTER_KANZEN_SEIHA" targetName="fgets_test" />
+      <config projectName="C_GENGO_POINTER_KANZEN_SEIHA" targetName="swap" />
       <config projectName="C_GENGO_POINTER_KANZEN_SEIHA" targetName="try2" />
       <config projectName="C_GENGO_POINTER_KANZEN_SEIHA" targetName="try1" />
+      <config projectName="C_GENGO_POINTER_KANZEN_SEIHA" targetName="sscanf_test" />
       <config projectName="C_GENGO_POINTER_KANZEN_SEIHA" targetName="array_init" />
     </generated>
   </component>
@@ -16,10 +26,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd3befbc-e546-43d4-a0ff-5dc0b82582c3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tests/array_init.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter2/auto.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter2/print_address.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter2/stackoverflow.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter2/vmtest.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/fgets_test.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/local_variable_test.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/modify_string_constant.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/sscanf_test.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/string_constant_address_test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/string_constant_adress_test.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/swap.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1/try2.c" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1/try2.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_GENGO_POINTER_KANZEN_SEIHA.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_GENGO_POINTER_KANZEN_SEIHA.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
@@ -47,6 +68,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="ObjectiveC" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -54,7 +76,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C/C++" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -68,7 +90,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="CMake Application.array_init">
+  <component name="RunManager" selected="CMake Application.stackoverflow">
     <configuration name="C_GENGO_POINTER_KANZEN_SEIHA" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C_GENGO_POINTER_KANZEN_SEIHA" TARGET_NAME="C_GENGO_POINTER_KANZEN_SEIHA" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C_GENGO_POINTER_KANZEN_SEIHA" RUN_TARGET_NAME="C_GENGO_POINTER_KANZEN_SEIHA">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -79,7 +101,52 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="auto" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C_GENGO_POINTER_KANZEN_SEIHA" TARGET_NAME="auto" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C_GENGO_POINTER_KANZEN_SEIHA" RUN_TARGET_NAME="auto">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="fgets_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C_GENGO_POINTER_KANZEN_SEIHA" TARGET_NAME="fgets_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C_GENGO_POINTER_KANZEN_SEIHA" RUN_TARGET_NAME="fgets_test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="local_variable_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C_GENGO_POINTER_KANZEN_SEIHA" TARGET_NAME="local_variable_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C_GENGO_POINTER_KANZEN_SEIHA" RUN_TARGET_NAME="local_variable_test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="modify_string_constant" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C_GENGO_POINTER_KANZEN_SEIHA" TARGET_NAME="modify_string_constant" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C_GENGO_POINTER_KANZEN_SEIHA" RUN_TARGET_NAME="modify_string_constant">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="pointer" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C_GENGO_POINTER_KANZEN_SEIHA" TARGET_NAME="pointer" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C_GENGO_POINTER_KANZEN_SEIHA" RUN_TARGET_NAME="pointer">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="print_address" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C_GENGO_POINTER_KANZEN_SEIHA" TARGET_NAME="print_address" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C_GENGO_POINTER_KANZEN_SEIHA" RUN_TARGET_NAME="print_address">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sscanf_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C_GENGO_POINTER_KANZEN_SEIHA" TARGET_NAME="sscanf_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C_GENGO_POINTER_KANZEN_SEIHA" RUN_TARGET_NAME="sscanf_test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="stackoverflow" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C_GENGO_POINTER_KANZEN_SEIHA" TARGET_NAME="stackoverflow" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C_GENGO_POINTER_KANZEN_SEIHA" RUN_TARGET_NAME="stackoverflow">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="string_constant_adress_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C_GENGO_POINTER_KANZEN_SEIHA" TARGET_NAME="string_constant_adress_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C_GENGO_POINTER_KANZEN_SEIHA" RUN_TARGET_NAME="string_constant_adress_test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="swap" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C_GENGO_POINTER_KANZEN_SEIHA" TARGET_NAME="swap" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C_GENGO_POINTER_KANZEN_SEIHA" RUN_TARGET_NAME="swap">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -94,12 +161,27 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="vmtest" type="CMakeRunConfiguration" factoryName="Application" singleton="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C_GENGO_POINTER_KANZEN_SEIHA" TARGET_NAME="vmtest" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C_GENGO_POINTER_KANZEN_SEIHA" RUN_TARGET_NAME="vmtest">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="CMake Application.array_init" />
+      <item itemvalue="CMake Application.auto" />
       <item itemvalue="CMake Application.C_GENGO_POINTER_KANZEN_SEIHA" />
+      <item itemvalue="CMake Application.fgets_test" />
+      <item itemvalue="CMake Application.local_variable_test" />
+      <item itemvalue="CMake Application.modify_string_constant" />
       <item itemvalue="CMake Application.pointer" />
+      <item itemvalue="CMake Application.print_address" />
+      <item itemvalue="CMake Application.sscanf_test" />
+      <item itemvalue="CMake Application.stackoverflow" />
+      <item itemvalue="CMake Application.string_constant_adress_test" />
+      <item itemvalue="CMake Application.swap" />
       <item itemvalue="CMake Application.try1" />
       <item itemvalue="CMake Application.try2" />
+      <item itemvalue="CMake Application.vmtest" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -114,7 +196,9 @@
       <updated>1566864817822</updated>
       <workItem from="1566864820872" duration="930000" />
       <workItem from="1566865836401" duration="52000" />
-      <workItem from="1566865904906" duration="12957000" />
+      <workItem from="1566865904906" duration="14753000" />
+      <workItem from="1567126025946" duration="15671000" />
+      <workItem from="1567163884300" duration="3138000" />
     </task>
     <task id="LOCAL-00001" summary="First">
       <created>1566864962286</created>
@@ -137,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566876536671</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="2019/8/27 17:58">
+      <created>1566899949065</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1566899949066</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,7 +239,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -157,6 +250,23 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First" />
     <MESSAGE value="2019/8/27 11:28" />
-    <option name="LAST_COMMIT_MESSAGE" value="2019/8/27 11:28" />
+    <MESSAGE value="2019/8/27 17:58" />
+    <option name="LAST_COMMIT_MESSAGE" value="2019/8/27 17:58" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Chapter2/stackoverflow.c</url>
+          <line>4</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Chapter2/stackoverflow.c</url>
+          <line>23</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

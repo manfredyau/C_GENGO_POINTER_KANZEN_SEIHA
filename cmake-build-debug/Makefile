@@ -55,17 +55,6 @@ CMAKE_BINARY_DIR = F:\CLionProjects\C_GENGO_POINTER_KANZEN_SEIHA\cmake-build-deb
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"D:\JetBrains\CLion 2019.2\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -76,6 +65,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	"D:\JetBrains\CLion 2019.2\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -149,6 +149,19 @@ pointer/fast:
 .PHONY : pointer/fast
 
 #=============================================================================
+# Target rules for targets named string_constant_adress_test
+
+# Build rule for target.
+string_constant_adress_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 string_constant_adress_test
+.PHONY : string_constant_adress_test
+
+# fast build rule for target.
+string_constant_adress_test/fast:
+	$(MAKE) -f CMakeFiles\string_constant_adress_test.dir\build.make CMakeFiles/string_constant_adress_test.dir/build
+.PHONY : string_constant_adress_test/fast
+
+#=============================================================================
 # Target rules for targets named array_init
 
 # Build rule for target.
@@ -162,6 +175,19 @@ array_init/fast:
 .PHONY : array_init/fast
 
 #=============================================================================
+# Target rules for targets named fgets_test
+
+# Build rule for target.
+fgets_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 fgets_test
+.PHONY : fgets_test
+
+# fast build rule for target.
+fgets_test/fast:
+	$(MAKE) -f CMakeFiles\fgets_test.dir\build.make CMakeFiles/fgets_test.dir/build
+.PHONY : fgets_test/fast
+
+#=============================================================================
 # Target rules for targets named try1
 
 # Build rule for target.
@@ -173,6 +199,110 @@ try1: cmake_check_build_system
 try1/fast:
 	$(MAKE) -f CMakeFiles\try1.dir\build.make CMakeFiles/try1.dir/build
 .PHONY : try1/fast
+
+#=============================================================================
+# Target rules for targets named sscanf_test
+
+# Build rule for target.
+sscanf_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 sscanf_test
+.PHONY : sscanf_test
+
+# fast build rule for target.
+sscanf_test/fast:
+	$(MAKE) -f CMakeFiles\sscanf_test.dir\build.make CMakeFiles/sscanf_test.dir/build
+.PHONY : sscanf_test/fast
+
+#=============================================================================
+# Target rules for targets named vmtest
+
+# Build rule for target.
+vmtest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 vmtest
+.PHONY : vmtest
+
+# fast build rule for target.
+vmtest/fast:
+	$(MAKE) -f CMakeFiles\vmtest.dir\build.make CMakeFiles/vmtest.dir/build
+.PHONY : vmtest/fast
+
+#=============================================================================
+# Target rules for targets named print_address
+
+# Build rule for target.
+print_address: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 print_address
+.PHONY : print_address
+
+# fast build rule for target.
+print_address/fast:
+	$(MAKE) -f CMakeFiles\print_address.dir\build.make CMakeFiles/print_address.dir/build
+.PHONY : print_address/fast
+
+#=============================================================================
+# Target rules for targets named local_variable_test
+
+# Build rule for target.
+local_variable_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 local_variable_test
+.PHONY : local_variable_test
+
+# fast build rule for target.
+local_variable_test/fast:
+	$(MAKE) -f CMakeFiles\local_variable_test.dir\build.make CMakeFiles/local_variable_test.dir/build
+.PHONY : local_variable_test/fast
+
+#=============================================================================
+# Target rules for targets named modify_string_constant
+
+# Build rule for target.
+modify_string_constant: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 modify_string_constant
+.PHONY : modify_string_constant
+
+# fast build rule for target.
+modify_string_constant/fast:
+	$(MAKE) -f CMakeFiles\modify_string_constant.dir\build.make CMakeFiles/modify_string_constant.dir/build
+.PHONY : modify_string_constant/fast
+
+#=============================================================================
+# Target rules for targets named swap
+
+# Build rule for target.
+swap: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 swap
+.PHONY : swap
+
+# fast build rule for target.
+swap/fast:
+	$(MAKE) -f CMakeFiles\swap.dir\build.make CMakeFiles/swap.dir/build
+.PHONY : swap/fast
+
+#=============================================================================
+# Target rules for targets named auto
+
+# Build rule for target.
+auto: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 auto
+.PHONY : auto
+
+# fast build rule for target.
+auto/fast:
+	$(MAKE) -f CMakeFiles\auto.dir\build.make CMakeFiles/auto.dir/build
+.PHONY : auto/fast
+
+#=============================================================================
+# Target rules for targets named stackoverflow
+
+# Build rule for target.
+stackoverflow: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 stackoverflow
+.PHONY : stackoverflow
+
+# fast build rule for target.
+stackoverflow/fast:
+	$(MAKE) -f CMakeFiles\stackoverflow.dir\build.make CMakeFiles/stackoverflow.dir/build
+.PHONY : stackoverflow/fast
 
 Chapter1/pointer.obj: Chapter1/pointer.c.obj
 
@@ -255,6 +385,114 @@ Chapter1/try2.c.s:
 	$(MAKE) -f CMakeFiles\try2.dir\build.make CMakeFiles/try2.dir/Chapter1/try2.c.s
 .PHONY : Chapter1/try2.c.s
 
+Chapter2/auto.obj: Chapter2/auto.c.obj
+
+.PHONY : Chapter2/auto.obj
+
+# target to build an object file
+Chapter2/auto.c.obj:
+	$(MAKE) -f CMakeFiles\auto.dir\build.make CMakeFiles/auto.dir/Chapter2/auto.c.obj
+.PHONY : Chapter2/auto.c.obj
+
+Chapter2/auto.i: Chapter2/auto.c.i
+
+.PHONY : Chapter2/auto.i
+
+# target to preprocess a source file
+Chapter2/auto.c.i:
+	$(MAKE) -f CMakeFiles\auto.dir\build.make CMakeFiles/auto.dir/Chapter2/auto.c.i
+.PHONY : Chapter2/auto.c.i
+
+Chapter2/auto.s: Chapter2/auto.c.s
+
+.PHONY : Chapter2/auto.s
+
+# target to generate assembly for a file
+Chapter2/auto.c.s:
+	$(MAKE) -f CMakeFiles\auto.dir\build.make CMakeFiles/auto.dir/Chapter2/auto.c.s
+.PHONY : Chapter2/auto.c.s
+
+Chapter2/print_address.obj: Chapter2/print_address.c.obj
+
+.PHONY : Chapter2/print_address.obj
+
+# target to build an object file
+Chapter2/print_address.c.obj:
+	$(MAKE) -f CMakeFiles\print_address.dir\build.make CMakeFiles/print_address.dir/Chapter2/print_address.c.obj
+.PHONY : Chapter2/print_address.c.obj
+
+Chapter2/print_address.i: Chapter2/print_address.c.i
+
+.PHONY : Chapter2/print_address.i
+
+# target to preprocess a source file
+Chapter2/print_address.c.i:
+	$(MAKE) -f CMakeFiles\print_address.dir\build.make CMakeFiles/print_address.dir/Chapter2/print_address.c.i
+.PHONY : Chapter2/print_address.c.i
+
+Chapter2/print_address.s: Chapter2/print_address.c.s
+
+.PHONY : Chapter2/print_address.s
+
+# target to generate assembly for a file
+Chapter2/print_address.c.s:
+	$(MAKE) -f CMakeFiles\print_address.dir\build.make CMakeFiles/print_address.dir/Chapter2/print_address.c.s
+.PHONY : Chapter2/print_address.c.s
+
+Chapter2/stackoverflow.obj: Chapter2/stackoverflow.c.obj
+
+.PHONY : Chapter2/stackoverflow.obj
+
+# target to build an object file
+Chapter2/stackoverflow.c.obj:
+	$(MAKE) -f CMakeFiles\stackoverflow.dir\build.make CMakeFiles/stackoverflow.dir/Chapter2/stackoverflow.c.obj
+.PHONY : Chapter2/stackoverflow.c.obj
+
+Chapter2/stackoverflow.i: Chapter2/stackoverflow.c.i
+
+.PHONY : Chapter2/stackoverflow.i
+
+# target to preprocess a source file
+Chapter2/stackoverflow.c.i:
+	$(MAKE) -f CMakeFiles\stackoverflow.dir\build.make CMakeFiles/stackoverflow.dir/Chapter2/stackoverflow.c.i
+.PHONY : Chapter2/stackoverflow.c.i
+
+Chapter2/stackoverflow.s: Chapter2/stackoverflow.c.s
+
+.PHONY : Chapter2/stackoverflow.s
+
+# target to generate assembly for a file
+Chapter2/stackoverflow.c.s:
+	$(MAKE) -f CMakeFiles\stackoverflow.dir\build.make CMakeFiles/stackoverflow.dir/Chapter2/stackoverflow.c.s
+.PHONY : Chapter2/stackoverflow.c.s
+
+Chapter2/vmtest.obj: Chapter2/vmtest.c.obj
+
+.PHONY : Chapter2/vmtest.obj
+
+# target to build an object file
+Chapter2/vmtest.c.obj:
+	$(MAKE) -f CMakeFiles\vmtest.dir\build.make CMakeFiles/vmtest.dir/Chapter2/vmtest.c.obj
+.PHONY : Chapter2/vmtest.c.obj
+
+Chapter2/vmtest.i: Chapter2/vmtest.c.i
+
+.PHONY : Chapter2/vmtest.i
+
+# target to preprocess a source file
+Chapter2/vmtest.c.i:
+	$(MAKE) -f CMakeFiles\vmtest.dir\build.make CMakeFiles/vmtest.dir/Chapter2/vmtest.c.i
+.PHONY : Chapter2/vmtest.c.i
+
+Chapter2/vmtest.s: Chapter2/vmtest.c.s
+
+.PHONY : Chapter2/vmtest.s
+
+# target to generate assembly for a file
+Chapter2/vmtest.c.s:
+	$(MAKE) -f CMakeFiles\vmtest.dir\build.make CMakeFiles/vmtest.dir/Chapter2/vmtest.c.s
+.PHONY : Chapter2/vmtest.c.s
+
 main.obj: main.c.obj
 
 .PHONY : main.obj
@@ -309,6 +547,168 @@ tests/array_init.c.s:
 	$(MAKE) -f CMakeFiles\array_init.dir\build.make CMakeFiles/array_init.dir/tests/array_init.c.s
 .PHONY : tests/array_init.c.s
 
+tests/fgets_test.obj: tests/fgets_test.c.obj
+
+.PHONY : tests/fgets_test.obj
+
+# target to build an object file
+tests/fgets_test.c.obj:
+	$(MAKE) -f CMakeFiles\fgets_test.dir\build.make CMakeFiles/fgets_test.dir/tests/fgets_test.c.obj
+.PHONY : tests/fgets_test.c.obj
+
+tests/fgets_test.i: tests/fgets_test.c.i
+
+.PHONY : tests/fgets_test.i
+
+# target to preprocess a source file
+tests/fgets_test.c.i:
+	$(MAKE) -f CMakeFiles\fgets_test.dir\build.make CMakeFiles/fgets_test.dir/tests/fgets_test.c.i
+.PHONY : tests/fgets_test.c.i
+
+tests/fgets_test.s: tests/fgets_test.c.s
+
+.PHONY : tests/fgets_test.s
+
+# target to generate assembly for a file
+tests/fgets_test.c.s:
+	$(MAKE) -f CMakeFiles\fgets_test.dir\build.make CMakeFiles/fgets_test.dir/tests/fgets_test.c.s
+.PHONY : tests/fgets_test.c.s
+
+tests/local_variable_test.obj: tests/local_variable_test.c.obj
+
+.PHONY : tests/local_variable_test.obj
+
+# target to build an object file
+tests/local_variable_test.c.obj:
+	$(MAKE) -f CMakeFiles\local_variable_test.dir\build.make CMakeFiles/local_variable_test.dir/tests/local_variable_test.c.obj
+.PHONY : tests/local_variable_test.c.obj
+
+tests/local_variable_test.i: tests/local_variable_test.c.i
+
+.PHONY : tests/local_variable_test.i
+
+# target to preprocess a source file
+tests/local_variable_test.c.i:
+	$(MAKE) -f CMakeFiles\local_variable_test.dir\build.make CMakeFiles/local_variable_test.dir/tests/local_variable_test.c.i
+.PHONY : tests/local_variable_test.c.i
+
+tests/local_variable_test.s: tests/local_variable_test.c.s
+
+.PHONY : tests/local_variable_test.s
+
+# target to generate assembly for a file
+tests/local_variable_test.c.s:
+	$(MAKE) -f CMakeFiles\local_variable_test.dir\build.make CMakeFiles/local_variable_test.dir/tests/local_variable_test.c.s
+.PHONY : tests/local_variable_test.c.s
+
+tests/modify_string_constant.obj: tests/modify_string_constant.c.obj
+
+.PHONY : tests/modify_string_constant.obj
+
+# target to build an object file
+tests/modify_string_constant.c.obj:
+	$(MAKE) -f CMakeFiles\modify_string_constant.dir\build.make CMakeFiles/modify_string_constant.dir/tests/modify_string_constant.c.obj
+.PHONY : tests/modify_string_constant.c.obj
+
+tests/modify_string_constant.i: tests/modify_string_constant.c.i
+
+.PHONY : tests/modify_string_constant.i
+
+# target to preprocess a source file
+tests/modify_string_constant.c.i:
+	$(MAKE) -f CMakeFiles\modify_string_constant.dir\build.make CMakeFiles/modify_string_constant.dir/tests/modify_string_constant.c.i
+.PHONY : tests/modify_string_constant.c.i
+
+tests/modify_string_constant.s: tests/modify_string_constant.c.s
+
+.PHONY : tests/modify_string_constant.s
+
+# target to generate assembly for a file
+tests/modify_string_constant.c.s:
+	$(MAKE) -f CMakeFiles\modify_string_constant.dir\build.make CMakeFiles/modify_string_constant.dir/tests/modify_string_constant.c.s
+.PHONY : tests/modify_string_constant.c.s
+
+tests/sscanf_test.obj: tests/sscanf_test.c.obj
+
+.PHONY : tests/sscanf_test.obj
+
+# target to build an object file
+tests/sscanf_test.c.obj:
+	$(MAKE) -f CMakeFiles\sscanf_test.dir\build.make CMakeFiles/sscanf_test.dir/tests/sscanf_test.c.obj
+.PHONY : tests/sscanf_test.c.obj
+
+tests/sscanf_test.i: tests/sscanf_test.c.i
+
+.PHONY : tests/sscanf_test.i
+
+# target to preprocess a source file
+tests/sscanf_test.c.i:
+	$(MAKE) -f CMakeFiles\sscanf_test.dir\build.make CMakeFiles/sscanf_test.dir/tests/sscanf_test.c.i
+.PHONY : tests/sscanf_test.c.i
+
+tests/sscanf_test.s: tests/sscanf_test.c.s
+
+.PHONY : tests/sscanf_test.s
+
+# target to generate assembly for a file
+tests/sscanf_test.c.s:
+	$(MAKE) -f CMakeFiles\sscanf_test.dir\build.make CMakeFiles/sscanf_test.dir/tests/sscanf_test.c.s
+.PHONY : tests/sscanf_test.c.s
+
+tests/string_constant_adress_test.obj: tests/string_constant_adress_test.c.obj
+
+.PHONY : tests/string_constant_adress_test.obj
+
+# target to build an object file
+tests/string_constant_adress_test.c.obj:
+	$(MAKE) -f CMakeFiles\string_constant_adress_test.dir\build.make CMakeFiles/string_constant_adress_test.dir/tests/string_constant_adress_test.c.obj
+.PHONY : tests/string_constant_adress_test.c.obj
+
+tests/string_constant_adress_test.i: tests/string_constant_adress_test.c.i
+
+.PHONY : tests/string_constant_adress_test.i
+
+# target to preprocess a source file
+tests/string_constant_adress_test.c.i:
+	$(MAKE) -f CMakeFiles\string_constant_adress_test.dir\build.make CMakeFiles/string_constant_adress_test.dir/tests/string_constant_adress_test.c.i
+.PHONY : tests/string_constant_adress_test.c.i
+
+tests/string_constant_adress_test.s: tests/string_constant_adress_test.c.s
+
+.PHONY : tests/string_constant_adress_test.s
+
+# target to generate assembly for a file
+tests/string_constant_adress_test.c.s:
+	$(MAKE) -f CMakeFiles\string_constant_adress_test.dir\build.make CMakeFiles/string_constant_adress_test.dir/tests/string_constant_adress_test.c.s
+.PHONY : tests/string_constant_adress_test.c.s
+
+tests/swap.obj: tests/swap.c.obj
+
+.PHONY : tests/swap.obj
+
+# target to build an object file
+tests/swap.c.obj:
+	$(MAKE) -f CMakeFiles\swap.dir\build.make CMakeFiles/swap.dir/tests/swap.c.obj
+.PHONY : tests/swap.c.obj
+
+tests/swap.i: tests/swap.c.i
+
+.PHONY : tests/swap.i
+
+# target to preprocess a source file
+tests/swap.c.i:
+	$(MAKE) -f CMakeFiles\swap.dir\build.make CMakeFiles/swap.dir/tests/swap.c.i
+.PHONY : tests/swap.c.i
+
+tests/swap.s: tests/swap.c.s
+
+.PHONY : tests/swap.s
+
+# target to generate assembly for a file
+tests/swap.c.s:
+	$(MAKE) -f CMakeFiles\swap.dir\build.make CMakeFiles/swap.dir/tests/swap.c.s
+.PHONY : tests/swap.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -318,10 +718,20 @@ help:
 	@echo ... try2
 	@echo ... C_GENGO_POINTER_KANZEN_SEIHA
 	@echo ... pointer
-	@echo ... rebuild_cache
+	@echo ... string_constant_adress_test
 	@echo ... array_init
+	@echo ... fgets_test
 	@echo ... try1
+	@echo ... sscanf_test
+	@echo ... vmtest
+	@echo ... print_address
+	@echo ... local_variable_test
+	@echo ... modify_string_constant
+	@echo ... swap
+	@echo ... auto
+	@echo ... stackoverflow
 	@echo ... edit_cache
+	@echo ... rebuild_cache
 	@echo ... Chapter1/pointer.obj
 	@echo ... Chapter1/pointer.i
 	@echo ... Chapter1/pointer.s
@@ -331,12 +741,42 @@ help:
 	@echo ... Chapter1/try2.obj
 	@echo ... Chapter1/try2.i
 	@echo ... Chapter1/try2.s
+	@echo ... Chapter2/auto.obj
+	@echo ... Chapter2/auto.i
+	@echo ... Chapter2/auto.s
+	@echo ... Chapter2/print_address.obj
+	@echo ... Chapter2/print_address.i
+	@echo ... Chapter2/print_address.s
+	@echo ... Chapter2/stackoverflow.obj
+	@echo ... Chapter2/stackoverflow.i
+	@echo ... Chapter2/stackoverflow.s
+	@echo ... Chapter2/vmtest.obj
+	@echo ... Chapter2/vmtest.i
+	@echo ... Chapter2/vmtest.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
 	@echo ... tests/array_init.obj
 	@echo ... tests/array_init.i
 	@echo ... tests/array_init.s
+	@echo ... tests/fgets_test.obj
+	@echo ... tests/fgets_test.i
+	@echo ... tests/fgets_test.s
+	@echo ... tests/local_variable_test.obj
+	@echo ... tests/local_variable_test.i
+	@echo ... tests/local_variable_test.s
+	@echo ... tests/modify_string_constant.obj
+	@echo ... tests/modify_string_constant.i
+	@echo ... tests/modify_string_constant.s
+	@echo ... tests/sscanf_test.obj
+	@echo ... tests/sscanf_test.i
+	@echo ... tests/sscanf_test.s
+	@echo ... tests/string_constant_adress_test.obj
+	@echo ... tests/string_constant_adress_test.i
+	@echo ... tests/string_constant_adress_test.s
+	@echo ... tests/swap.obj
+	@echo ... tests/swap.i
+	@echo ... tests/swap.s
 .PHONY : help
 
 
