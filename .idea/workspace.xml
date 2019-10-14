@@ -15,8 +15,8 @@
       <config projectName="C_GENGO_POINTER_KANZEN_SEIHA" targetName="swap" />
       <config projectName="C_GENGO_POINTER_KANZEN_SEIHA" targetName="try2" />
       <config projectName="C_GENGO_POINTER_KANZEN_SEIHA" targetName="try1" />
-      <config projectName="C_GENGO_POINTER_KANZEN_SEIHA" targetName="sscanf_test" />
       <config projectName="C_GENGO_POINTER_KANZEN_SEIHA" targetName="array_init" />
+      <config projectName="C_GENGO_POINTER_KANZEN_SEIHA" targetName="sscanf_test" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -26,25 +26,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd3befbc-e546-43d4-a0ff-5dc0b82582c3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter2/auto.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter2/print_address.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter2/stackoverflow.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter2/vmtest.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/fgets_test.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/local_variable_test.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/modify_string_constant.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/sscanf_test.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/string_constant_address_test.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/string_constant_adress_test.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/swap.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter2/stackoverflow.c" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter2/stackoverflow.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.5/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.5/CMakeCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.5/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.5/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.5/CMakeRCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.5/CMakeRCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.5/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.5/CompilerIdC/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_GENGO_POINTER_KANZEN_SEIHA.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_GENGO_POINTER_KANZEN_SEIHA.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_GENGO_POINTER_KANZEN_SEIHA.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_GENGO_POINTER_KANZEN_SEIHA.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_GENGO_POINTER_KANZEN_SEIHA.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_GENGO_POINTER_KANZEN_SEIHA.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_GENGO_POINTER_KANZEN_SEIHA.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_GENGO_POINTER_KANZEN_SEIHA.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/C_GENGO_POINTER_KANZEN_SEIHA.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/C_GENGO_POINTER_KANZEN_SEIHA.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
     </list>
@@ -199,6 +197,7 @@
       <workItem from="1566865904906" duration="14753000" />
       <workItem from="1567126025946" duration="15671000" />
       <workItem from="1567163884300" duration="3138000" />
+      <workItem from="1571020379961" duration="98000" />
     </task>
     <task id="LOCAL-00001" summary="First">
       <created>1566864962286</created>
@@ -256,11 +255,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Chapter2/stackoverflow.c</url>
-          <line>4</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/Chapter2/stackoverflow.c</url>
           <line>23</line>

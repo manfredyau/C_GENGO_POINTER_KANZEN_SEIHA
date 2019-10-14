@@ -33,10 +33,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\JetBrains\CLion 2019.2\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "D:\DEVELOPMENT\JetBrains\CLion 2019.2.1\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\JetBrains\CLion 2019.2\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "D:\DEVELOPMENT\JetBrains\CLion 2019.2.1\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,15 +59,15 @@ include CMakeFiles/C_GENGO_POINTER_KANZEN_SEIHA.dir/flags.make
 CMakeFiles/C_GENGO_POINTER_KANZEN_SEIHA.dir/main.c.obj: CMakeFiles/C_GENGO_POINTER_KANZEN_SEIHA.dir/flags.make
 CMakeFiles/C_GENGO_POINTER_KANZEN_SEIHA.dir/main.c.obj: ../main.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\CLionProjects\C_GENGO_POINTER_KANZEN_SEIHA\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/C_GENGO_POINTER_KANZEN_SEIHA.dir/main.c.obj"
-	D:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\C_GENGO_POINTER_KANZEN_SEIHA.dir\main.c.obj   -c F:\CLionProjects\C_GENGO_POINTER_KANZEN_SEIHA\main.c
+	D:\DEVELOPMENT\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\C_GENGO_POINTER_KANZEN_SEIHA.dir\main.c.obj   -c F:\CLionProjects\C_GENGO_POINTER_KANZEN_SEIHA\main.c
 
 CMakeFiles/C_GENGO_POINTER_KANZEN_SEIHA.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C_GENGO_POINTER_KANZEN_SEIHA.dir/main.c.i"
-	D:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\CLionProjects\C_GENGO_POINTER_KANZEN_SEIHA\main.c > CMakeFiles\C_GENGO_POINTER_KANZEN_SEIHA.dir\main.c.i
+	D:\DEVELOPMENT\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\CLionProjects\C_GENGO_POINTER_KANZEN_SEIHA\main.c > CMakeFiles\C_GENGO_POINTER_KANZEN_SEIHA.dir\main.c.i
 
 CMakeFiles/C_GENGO_POINTER_KANZEN_SEIHA.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C_GENGO_POINTER_KANZEN_SEIHA.dir/main.c.s"
-	D:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\CLionProjects\C_GENGO_POINTER_KANZEN_SEIHA\main.c -o CMakeFiles\C_GENGO_POINTER_KANZEN_SEIHA.dir\main.c.s
+	D:\DEVELOPMENT\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\CLionProjects\C_GENGO_POINTER_KANZEN_SEIHA\main.c -o CMakeFiles\C_GENGO_POINTER_KANZEN_SEIHA.dir\main.c.s
 
 # Object files for target C_GENGO_POINTER_KANZEN_SEIHA
 C_GENGO_POINTER_KANZEN_SEIHA_OBJECTS = \
